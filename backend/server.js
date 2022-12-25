@@ -1,8 +1,8 @@
 import express from 'express';
 import cors from 'cors';
-import ScoreCard from '../models/ScoreCard.js'
-import routes from './routes';
-import db from './db';
+import ScoreCard from './models/ScoreCard.js'
+import routes from './src/routes';
+import db from './src/db';
 
 
   const app = express();
