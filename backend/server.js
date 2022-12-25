@@ -14,7 +14,7 @@ import db from './src/db';
     console.log(`Example app listening on port ${port}!`),
   );
   db.connect()
-  app.use('/api/', routes);
+  app.use('/', routes);
 
 
 
